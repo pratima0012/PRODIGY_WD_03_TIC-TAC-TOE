@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="main">
+        <h1 id="winnerMsgDiv">Tic-Tac-Toe</h1>
+        <div class="x-count">X<span id="count-x">0</span></div>
+        <div class="x-count">O<span id="count-y">0</span></div>
+        <div id="mainDiv">
+            <div id="0" class="cell"></div>          
+            <div id="1" class="cell"></div>
+            <div id="2" class="cell"></div>
+            <div id="3" class="cell"></div>
+            <div id="4" class="cell"></div>
+            <div id="5" class="cell"></div>
+            <div id="6" class="cell"></div>
+            <div id="7" class="cell"></div>
+            <div id="8" class="cell"></div>
+        </div>
+        <h2 class="game-status"></h2>
+        <button onclick="restartGame()">Restart Game</button>
+        <button  onclick="resetGame()">Reset Game</button>
+</div>
+    <script src="sheet.js"></script>
+</body>
+</html>
